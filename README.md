@@ -1,35 +1,20 @@
 # Third-Party APIs: Work Day Scheduler
 
-## Your Task
+# Description
+Work day scheduler that allows you to type note in a text field and save. When the page is refreshed the text stays in the text box like normal. Using Day.Js to get the current date and time the box will change colors depending on if the time block is past, present or in the future. Right now that function works if you drag up in the corner of the text area. 
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+# Screenshot of webpage
+You can find screenshot of the webpage in the repo. This shows the issue where the color is displayed only if the box is drug up. 
+Screen shot here -> week-5-challenge\assets\Workday scheduler.png
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+# Installation
+To view the webpage from this Repo. Settings > Pages > Visit Site or Use this website -> week-5-challenge\assets\Workday scheduler.png
 
-## User Story
+# Support
+for any questions feel free to email me at zackburnell922@gmail.com
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+# Acknowledgment
+Code was cloned from OSU-VIRT-FSF-PT-08-2023-U-LOLC\05-Third-Party-APIs. Also nused JQuery, Day.JS and Google Fonts for some styling.
 
-## Acceptance Criteria
-
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
+# License
+MIT License. License can also be found in the Repo.

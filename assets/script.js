@@ -14,7 +14,7 @@
        
         console.log(this);
         var time = $(this).parent().attr("id");
-        var input = $(this).children(".description").val();
+        var input = $(this).siblings(".description").val();
 
         localStorage.setItem(time, input);
     })
