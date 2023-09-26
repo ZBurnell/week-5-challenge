@@ -1,9 +1,9 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 16px;
   }
   
-  textarea {
+  text {
     background: transparent;
     border: none;
     resize: none;
@@ -31,17 +31,17 @@ body {
   }
   
   .past {
-    background-color: #d3d3d3;
+    background-color: #686A6C;
     color: white;
   }
   
   .present {
-    background-color: #ff6961;
+    background-color: #006AA7;
     color: white;
   }
   
   .future {
-    background-color: #77dd77;
+    background-color: #004225;
     color: white;
   }
   
